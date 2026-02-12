@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Verify JavaScript logic consistency using AST SHA-1 hashes",
-  "author": "aoki_makoto@ninton.co.jp",
+  "author": {
+    "name": "Makoto Aoki, Ninton",
+    "email": "aoki_makoto@ninton.co.jp",
+    "url": "https://github.com/ninton"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ninton/ast-logic-hasher.git"
+  },
   "bin": {
     "ast-logic-hasher": "./bin/cli.js"
   },
